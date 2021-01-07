@@ -50,3 +50,8 @@ $(function(){
 
 });
 
+function display()
+{
+	alert("Thanks for your responding")
+	
+}

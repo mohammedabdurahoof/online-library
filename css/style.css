@@ -1,6 +1,9 @@
 *{margin: 0;
 padding: 0;}
-
+body{
+  margin: 0px;
+  page-break-after: 0px;
+}
 .bgimage{
   
 
@@ -22,7 +25,7 @@ padding: 0;}
     color: black;
   }
   .colorless{
-  background-color:transparent;
+  background-color:transparent !important;
 
   }
   menu{
@@ -31,7 +34,7 @@ padding: 0;}
 
   }
   .crd{
-    width: 18rem; padding: 55px;
+    width: 18rem; padding: 45px;
     background-color: #4d8ceb !important;
   }  
   .crdall :hover{
@@ -475,6 +478,7 @@ padding: 0;}
 .profi{
   background-color: #0dc7ff ;
   height: 250Px;
+  width: 100%;
   text-align: center;
   padding-top: 81px;
   color: #fff;
@@ -485,17 +489,30 @@ padding: 0;}
   width: 400px;
   height: 70px;
   background-color:#4d8ceb ;
-  margin-left: 25px;
+  margin-left: 43px;
   margin-top: 30px;
   border-radius: 10px 0px 0px  10px;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .tag1{
   width: 400px;
   height: 70px;
   background-color: #4d8ceb ;
-  margin-left: 25px;
-  
+  margin-left: 43px;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border-radius: 10px 0px 0px  10px;
+  
+}
+.bor{
+  border-right: #000 solid 2px;
+  height: 570px;
 }
 .tag:hover{
   background-color: #ade8ff ;
@@ -503,7 +520,6 @@ padding: 0;}
 .tag1:hover{
   background-color: #ade8ff ;
 }
-.imag{
-  height: 100px;
-  
+.card-title{
+  color: #fff;
 }

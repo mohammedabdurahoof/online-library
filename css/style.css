@@ -34,7 +34,7 @@ body{
 
   }
   .crd{
-    width: 18rem; padding: 45px;
+    
     background-color: #4d8ceb !important;
   }  
   .crdall :hover{
@@ -486,11 +486,8 @@ body{
   margin-bottom: 30px;
 }
 .tag{
-  width: 400px;
-  height: 70px;
-  background-color:#4d8ceb ;
-  margin-left: 43px;
-  margin-top: 30px;
+  background-color: #4d8ceb;
+  margin-top: 2vw;
   border-radius: 10px 0px 0px  10px;
   text-align: center;
   padding-top: 10px;
@@ -499,10 +496,7 @@ body{
 }
 
 .tag1{
-  width: 400px;
-  height: 70px;
-  background-color: #4d8ceb ;
-  margin-left: 43px;
+  background-color: #4d8ceb;
   text-align: center;
   padding-top: 10px;
   color: #fff;
@@ -512,7 +506,7 @@ body{
 }
 .bor{
   border-right: #000 solid 2px;
-  height: 570px;
+  height: 40vw;
 }
 .tag:hover{
   background-color: #ade8ff ;
@@ -522,4 +516,30 @@ body{
 }
 .card-title{
   color: #fff;
+}
+
+
+
+@media (max-width:350px){
+  .card-title{
+    font-size: 1rem;
+  }
+}
+@media (max-width:991px){
+  .tag, .tag1{
+    width: 0vw;
+    height: 0vw;
+    margin-left: 0vw;
+  }
+}
+@media (min-width:991px){
+  .tag, .tag1{
+  width: 30vw;
+  height: 5vw;
+  margin-left: 2.5vw;}
+}
+#btn{
+  position: absolute;
+    top: 5px;
+    right: 5px;
 }

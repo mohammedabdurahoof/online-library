@@ -55,3 +55,7 @@ function display()
 	alert("Thanks for your responding")
 	
 }
+document.getElementById("btn").addEventListener("click",()=>{
+	let nav = document.getElementById("navbarSupportedContent")
+	nav.style = "margin-right: -55px; background-color: rgb(255, 255, 255);width: 109vw; margin-top: 50px; padding: 10px 10px 10px 60px;"
+})

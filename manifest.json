@@ -1,0 +1,20 @@
+{
+    "name":"Online Library",
+    "short_name" :"Online Library",
+    "start_url": ".",
+    "background_color":"#0dcaf0",
+    "theme_color":"#0dcaf0",
+     "display" : "standalone",
+     "icons":[
+         {
+             "src":"images/ICON64.png",
+             "size":"64x64",
+             "type":"image/png"
+         },
+         {
+             "src":"images/ICON512.png",
+             "size":"512x512",
+             "type":"image/png"
+         }
+     ]
+ }
